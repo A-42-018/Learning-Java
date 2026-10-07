@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light window: matches ui/Tokens.kt Palette.LightBgTop so there is no white/dark flash before Compose draws. -->
+    <color name="gd_window_bg">#EEF2FF</color>
+    <style name="Theme.GitDrip" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/gd_window_bg</item>
+        <item name="android:colorBackground">@color/gd_window_bg</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
